@@ -12,8 +12,8 @@ FROM ubuntu:16.04
 MAINTAINER Amit Chattopadhyay <amitchat@gmail.com>
 
 # Setup Configurable Environment 
-ENV USERNAME vscode
-ENV PASSWORD vscode
+ENV USERNAME admin
+ENV PASSWORD root
 
 # Install Packages
 RUN apt-get update \
